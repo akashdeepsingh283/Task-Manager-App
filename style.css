@@ -1,0 +1,114 @@
+body{
+    background-color: #4ca0d4;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-cottonbro-5191390.jpg);
+    background-size: cover;
+
+}
+li{
+    color:#000000;
+    background-color: #DAC0A3;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    border-radius: 25px;
+    background:linear-gradient(135deg,#00000033,#FEFAF6);
+    font-size: 20px;
+}
+h1{
+    color:rgb(0, 0, 0);
+}
+#taskinput{
+    border-color: #DAC0A3;
+    border:1px solid #363062;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 50%;
+    margin-right: 5%;
+    outline: none;
+    transition: border-color 0.5s;
+    font-size: large;
+
+}
+#taskinput:focus{
+    border-color: #102C57;
+}
+.donebtn{
+    background-color: #102C57;
+    color: #FEFAF6;
+    border-radius: 10px;
+    padding: 7px 14px;
+
+}
+.donebtn:hover{
+    background-color: #363062;
+}
+.taskapp{
+    
+    background-color: #DAC0A3;
+    border-radius: 15px;
+    padding: 20px;
+    width: 60%;
+    background:linear-gradient(135deg,#00000033,#FEFAF6);
+    margin: 200px auto;
+}
+#addbtn{
+    background-color:#102C57;
+    color: #F6F4EB;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid #363062;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#addbtn:hover{
+    background-color: #363062;
+    color: #F6F4EB
+}
+.deletebtn{
+    background-color: #102C57;
+    color: #FEFAF6;
+    border-radius: 10px;
+    padding: 7px 14px;
+
+}
+.deletebtn:hover{
+    background-color: #363062;
+}
+.editbtn{
+    background-color: #102C57;
+    color: #FEFAF6;
+    border-radius: 10px;
+    padding: 7px 14px;
+
+}
+.editbtn:hover{
+    background-color: #363062;
+}
+#tasklist{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.butdiv1{
+    display: flex;
+    gap: 20px;
+}
+.editinput{
+    border-color: #DAC0A3;
+    border:1px solid #363062;
+    color: #000000;
+    border-radius: 10px;
+    padding: 7px 14px;
+    width: 100%;
+    margin-right: 5%;
+    outline: none;
+    transition: border-color 0.5s;
+    font-size: large;
+}
